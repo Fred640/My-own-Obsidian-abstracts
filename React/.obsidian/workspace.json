@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "0e17dd90181e37a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "6de821fa18f2b0fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb839ed52f315710",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Хуки/useRef().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "useRef()"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c1fe38f85a604c88",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b6bdc9311054c52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5184d555d5341997",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4554334f4e729fd2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "298972b1be6eb8ff",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "2c33295dd7cd2bee",
+    "type": "split",
+    "children": [
+      {
+        "id": "d79aab29753034a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "227e571b3482f8f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Создание react приложения.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Создание react приложения"
+            }
+          },
+          {
+            "id": "36467fac00cace36",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Создание react приложения.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Создание react приложения"
+            }
+          },
+          {
+            "id": "1a9af4cb534168a0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "db2acfbf54226fd4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Создание react приложения.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Создание react приложения"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "bb839ed52f315710",
+  "lastOpenFiles": [
+    "Состояния.md",
+    "Хуки/Основные Хуки.md",
+    "Callback.md",
+    "Хуки/useRef().md",
+    "Хуки/useMemo().md",
+    "Хуки/useEffect().md",
+    "Отрисовка по условию.md",
+    "Жизненный цикл  компонента.md",
+    "Props.md",
+    "Создание react приложения.md",
+    "Props children.md",
+    "Двойное связывание.md",
+    "Классовый компонент.md",
+    "Функционалный компонент.md",
+    "CSS Стили.md",
+    "Pasted image 20250913115523.png",
+    "ScreenShots/Pasted image 20250913115613.png",
+    "Хуки",
+    "ScreenShots",
+    "ScreenShots/Pasted image 20250903202821.png",
+    "Состояние/Создание состояния.md",
+    "Состояние",
+    "Welcome.md"
+  ]
+}

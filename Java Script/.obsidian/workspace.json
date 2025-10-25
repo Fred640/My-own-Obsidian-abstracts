@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "a9068677847fe784",
+    "type": "split",
+    "children": [
+      {
+        "id": "c54e20d511ad9aee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "684ce87686d7ffb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Методы/Методы String().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Методы String()"
+            }
+          },
+          {
+            "id": "34718f026c4218b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "События/Event Loop.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Event Loop"
+            }
+          },
+          {
+            "id": "86ab88740c8c7825",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e1f59c2bab5129c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4edc6de8e913a720",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d83ffcfe014db9c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "eb9186b55e13d800",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "71e10cf6c66adaf4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274.5
+  },
+  "right": {
+    "id": "d5e71faf733d7fbe",
+    "type": "split",
+    "children": [
+      {
+        "id": "60a3e38108898be8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "164da9f39869110f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "26a34a44935d56c7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "6d16f693b4ee5f0f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "556e632290c41d89",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "86ab88740c8c7825",
+  "lastOpenFiles": [
+    "Методы/Методы String().md",
+    "События/Event Loop.md",
+    "Массив/Массив.md",
+    "Массив/Методы Массива 1.md",
+    "Обьект/Редактирование свойств обьекта.md",
+    "Обьект/Обращение к обьекту.md",
+    "Обьект/Работа с Объектами.md",
+    "Обьект/Создание Обьекта.md",
+    "Function/Function Expression.md",
+    "Function/Function Declaration.md",
+    "Function/Arrow Function.md",
+    "This.md",
+    "Обработка ошибок.md",
+    "JSON.md",
+    "Модули.md",
+    "Браузер/Dom и Bom.md",
+    "События/Работа с формами.md",
+    "Браузер/Без названия",
+    "Браузер",
+    "События/Браузерные события.md",
+    "События/Названия событий.md",
+    "Начало/Всплывающее окно.md",
+    "События",
+    "Без названия.md",
+    "Методы/Методы Number().md",
+    "Методы/Методы Массива.md",
+    "Коллекции/Коллекция Map.md",
+    "Класс/Наследование.md",
+    "Класс/Сеттеры и Геттеры.md",
+    "Коллекции",
+    "Выполнение",
+    "Массив 1",
+    "Методы",
+    "Массив",
+    "Начало",
+    "Function"
+  ]
+}
