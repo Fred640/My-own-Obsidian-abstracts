@@ -1,0 +1,17 @@
+Это запросы используемые для получения данных с сервера
+
+url адрес может содержать параметры: пары ключ=значение. 
+чтобы их получить нужно воспользоваться методом GET у объекта request функции представления
+
+```
+def categories(request, cat_id):
+	print(request.GET)
+	return ........
+```
+
+```
+url : 127.0.0.1.8000/categories/52/?name=Vasiliy&type=legend     => console: {"name":['Vasiliy'], "type":['legend']}
+```
+
+
+
