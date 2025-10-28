@@ -3,13 +3,14 @@
 		{"id":"c7ca23a6119fcb80","type":"text","text":"[[Models]]","x":-935,"y":-540,"width":250,"height":60},
 		{"id":"880a77369f3ba44d","type":"text","text":"[[Начало работы]]","x":-1475,"y":-540,"width":250,"height":60},
 		{"id":"7db6d651017eb54d","type":"text","text":"[[Templates]]\n","x":-935,"y":-340,"width":250,"height":60},
-		{"id":"e86aa010723f2172","type":"text","text":"[[Маршрутизация]]","x":-537,"y":-69,"width":250,"height":60},
 		{"id":"6b276a89eed5a59f","type":"text","text":"[[Views]]","x":-935,"y":-100,"width":250,"height":61},
 		{"id":"79b75a5bc36d8f0f","type":"text","text":"**[[MTV модель]]**","x":-1375,"y":-340,"width":250,"height":60},
 		{"id":"00bc125f01f04b9e","type":"text","text":"[[Конвертеры]]","x":-380,"y":100,"width":250,"height":60},
 		{"id":"715a8cede4a91495","type":"text","text":"[[Обработчик исключений]]","x":-960,"y":100,"width":250,"height":60},
 		{"id":"b318213dcc7203ad","type":"text","text":"[[Перенаправления]]","x":0,"y":-9,"width":250,"height":60},
-		{"id":"add1a88ebffb8cf0","x":-685,"y":-220,"width":250,"height":60,"type":"text","text":"#Фильтры "}
+		{"id":"e86aa010723f2172","type":"text","text":"[[Маршрутизация]]","x":-540,"y":-69,"width":250,"height":60},
+		{"id":"add1a88ebffb8cf0","type":"text","text":"#Фильтры ","x":-685,"y":-200,"width":250,"height":60},
+		{"id":"752ba4e648627890","x":-380,"y":-200,"width":250,"height":60,"type":"text","text":"#Теги_шаблонов"}
 	],
 	"edges":[
 		{"id":"ac1fba77ec2e3fcc","fromNode":"79b75a5bc36d8f0f","fromSide":"right","toNode":"c7ca23a6119fcb80","toSide":"left"},
@@ -21,6 +22,7 @@
 		{"id":"dc792dc5041b4bb3","fromNode":"6b276a89eed5a59f","fromSide":"bottom","toNode":"715a8cede4a91495","toSide":"top"},
 		{"id":"9cccbde1e8edee13","fromNode":"e86aa010723f2172","fromSide":"bottom","toNode":"715a8cede4a91495","toSide":"right"},
 		{"id":"f7a72d9890632d87","fromNode":"e86aa010723f2172","fromSide":"right","toNode":"b318213dcc7203ad","toSide":"left"},
-		{"id":"ce810d173d590699","fromNode":"7db6d651017eb54d","fromSide":"right","toNode":"add1a88ebffb8cf0","toSide":"top"}
+		{"id":"ce810d173d590699","fromNode":"7db6d651017eb54d","fromSide":"right","toNode":"add1a88ebffb8cf0","toSide":"top"},
+		{"id":"8bb029f75c893215","fromNode":"7db6d651017eb54d","fromSide":"right","toNode":"752ba4e648627890","toSide":"top"}
 	]
 }
