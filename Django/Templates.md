@@ -175,6 +175,12 @@ base1.htm
 {% include "./my/base3.html" %}
 ```
 
+в теге include можно дописывать переменные которые будут использоваться в импортируемом шаблоне
+```
+{% include "name_snippet.html" with person="Jane" greeting="Hello" %}
+```
+
+
 #### firstof
 Возвращает первое из переданных значений которое не будет равно False
 ```
@@ -191,3 +197,82 @@ base1.htm
 {% endif %}
 ```
 
+#### block and extends
+[[Наследование шаблонов]]
+
+#### autoescape
+Позволяет защитить сайт от XXS. То есть защита сайта от запуска пользователем js скриптов через вводимые переменные.
+```
+{% autoescape on %}
+    Hello {{ name }}
+{% endautoescape %}
+```
+Таким образом если пользователь ввел свое имя как js скрипт то он не будет запущен.
+
+
+
+#### now
+отобразит текущую дату и/или время в указанном формате
+```
+{% now "jS \o\f F" %}
+```
+
+#### regroup
+Перегруппировывает список объектов по заданному свойству
+```
+cities = [
+    {"name": "Mumbai", "population": "19,000,000", "country": "India"},
+    {"name": "Calcutta", "population": "15,000,000", "country": "India"},
+    {"name": "New York", "population": "20,000,000", "country": "USA"},
+    {"name": "Chicago", "population": "7,000,000", "country": "USA"},
+    {"name": "Tokyo", "population": "33,000,000", "country": "Japan"},
+]
+```
+
+```
+{% regroup cities by country as country_list %}
+
+<ul>
+{% for country in country_list %}
+    <li>{{ country.grouper }}
+    <ul>
+        {% for city in country.list %}
+          <li>{{ city.name }}: {{ city.population }}</li>
+        {% endfor %}
+    </ul>
+    </li>
+{% endfor %}
+</ul>
+```
+
+```
+- India
+    
+    - Mumbai: 19,000,000
+        
+    - Calcutta: 15,000,000
+        
+- USA
+    
+    - New York: 20,000,000
+        
+    - Chicago: 7,000,000
+        
+- Japan
+    
+    - Tokyo: 33,000,000
+```
+
+#### spaceless
+Удаляет пробелы и табуляции между html тегами
+```
+{% spaceless %}
+    <p>
+        <a>asd</a>
+    </p>
+{% endspaceless %}
+```
+вернет:
+```
+<p><a href="foo/">Foo</a></p
+```

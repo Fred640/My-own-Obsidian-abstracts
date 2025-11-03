@@ -10,7 +10,8 @@
 		{"id":"b318213dcc7203ad","type":"text","text":"[[Перенаправления]]","x":0,"y":-9,"width":250,"height":60},
 		{"id":"e86aa010723f2172","type":"text","text":"[[Маршрутизация]]","x":-540,"y":-69,"width":250,"height":60},
 		{"id":"add1a88ebffb8cf0","type":"text","text":"#Фильтры ","x":-685,"y":-200,"width":250,"height":60},
-		{"id":"752ba4e648627890","x":-380,"y":-200,"width":250,"height":60,"type":"text","text":"#Теги_шаблонов"}
+		{"id":"752ba4e648627890","type":"text","text":"#Теги_шаблонов","x":-960,"y":-200,"width":250,"height":60},
+		{"id":"e0ff13ecc1be0039","x":-415,"y":-200,"width":250,"height":53,"type":"text","text":"[[Наследование шаблонов]]"}
 	],
 	"edges":[
 		{"id":"ac1fba77ec2e3fcc","fromNode":"79b75a5bc36d8f0f","fromSide":"right","toNode":"c7ca23a6119fcb80","toSide":"left"},
@@ -23,6 +24,7 @@
 		{"id":"9cccbde1e8edee13","fromNode":"e86aa010723f2172","fromSide":"bottom","toNode":"715a8cede4a91495","toSide":"right"},
 		{"id":"f7a72d9890632d87","fromNode":"e86aa010723f2172","fromSide":"right","toNode":"b318213dcc7203ad","toSide":"left"},
 		{"id":"ce810d173d590699","fromNode":"7db6d651017eb54d","fromSide":"right","toNode":"add1a88ebffb8cf0","toSide":"top"},
-		{"id":"8bb029f75c893215","fromNode":"7db6d651017eb54d","fromSide":"right","toNode":"752ba4e648627890","toSide":"top"}
+		{"id":"3fb21e2eced24ff5","fromNode":"7db6d651017eb54d","fromSide":"bottom","toNode":"752ba4e648627890","toSide":"top"},
+		{"id":"0188e7cd2b2570a4","fromNode":"7db6d651017eb54d","fromSide":"right","toNode":"e0ff13ecc1be0039","toSide":"top"}
 	]
 }
