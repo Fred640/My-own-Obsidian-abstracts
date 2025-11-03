@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates.md",
+                "file": "Подключение статических файлов.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Templates"
+              "title": "Подключение статических файлов"
             }
           },
           {
@@ -181,8 +181,10 @@
   },
   "active": "52e951c12d7e0d2a",
   "lastOpenFiles": [
-    "Templates.md",
     "Наследование шаблонов.md",
+    "Подключение статических файлов.md",
+    "Templates.md",
+    "Конвертеры.md",
     "Django Обзор.canvas",
     "Начало работы.md",
     "GET requests.md",
@@ -190,7 +192,6 @@
     "MTV модель.md",
     "Models.md",
     "Views.md",
-    "Конвертеры.md",
     "Перенаправления.md",
     "Обработчик исключений.md",
     "Маршрутизация.md",
