@@ -11,7 +11,10 @@
 		{"id":"e86aa010723f2172","type":"text","text":"[[Маршрутизация]]","x":-540,"y":-69,"width":250,"height":60},
 		{"id":"add1a88ebffb8cf0","type":"text","text":"#Фильтры ","x":-685,"y":-200,"width":250,"height":60},
 		{"id":"752ba4e648627890","type":"text","text":"#Теги_шаблонов","x":-960,"y":-200,"width":250,"height":60},
-		{"id":"e0ff13ecc1be0039","x":-415,"y":-200,"width":250,"height":53,"type":"text","text":"[[Наследование шаблонов]]"}
+		{"id":"e0ff13ecc1be0039","type":"text","text":"[[Наследование шаблонов]]","x":-740,"y":-440,"width":250,"height":53},
+		{"id":"c7204daaadf8097b","type":"text","text":"[[Подключение статических файлов]]","x":-380,"y":-280,"width":250,"height":60},
+		{"id":"8fdddc949f0f9c6c","type":"text","text":"[[Migrations]]","x":-1085,"y":-740,"width":250,"height":60},
+		{"id":"d5bdfec6a95c05fd","x":-665,"y":-680,"width":250,"height":60,"type":"text","text":"[[CRUD]]"}
 	],
 	"edges":[
 		{"id":"ac1fba77ec2e3fcc","fromNode":"79b75a5bc36d8f0f","fromSide":"right","toNode":"c7ca23a6119fcb80","toSide":"left"},
@@ -25,6 +28,9 @@
 		{"id":"f7a72d9890632d87","fromNode":"e86aa010723f2172","fromSide":"right","toNode":"b318213dcc7203ad","toSide":"left"},
 		{"id":"ce810d173d590699","fromNode":"7db6d651017eb54d","fromSide":"right","toNode":"add1a88ebffb8cf0","toSide":"top"},
 		{"id":"3fb21e2eced24ff5","fromNode":"7db6d651017eb54d","fromSide":"bottom","toNode":"752ba4e648627890","toSide":"top"},
-		{"id":"0188e7cd2b2570a4","fromNode":"7db6d651017eb54d","fromSide":"right","toNode":"e0ff13ecc1be0039","toSide":"top"}
+		{"id":"4cc37146a1c26db9","fromNode":"7db6d651017eb54d","fromSide":"top","toNode":"e0ff13ecc1be0039","toSide":"left"},
+		{"id":"481961d12a3f2feb","fromNode":"7db6d651017eb54d","fromSide":"right","toNode":"c7204daaadf8097b","toSide":"left"},
+		{"id":"e5c80bacf9b99e7e","fromNode":"c7ca23a6119fcb80","fromSide":"top","toNode":"8fdddc949f0f9c6c","toSide":"bottom"},
+		{"id":"14db9767b4a38374","fromNode":"c7ca23a6119fcb80","fromSide":"top","toNode":"d5bdfec6a95c05fd","toSide":"left"}
 	]
 }

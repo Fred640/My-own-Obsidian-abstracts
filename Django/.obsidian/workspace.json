@@ -11,24 +11,17 @@
             "id": "52e951c12d7e0d2a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Models.md",
-                "mode": "source",
-                "source": false
+                "file": "Django Обзор.canvas",
+                "viewState": {
+                  "x": -612.5,
+                  "y": -260,
+                  "zoom": -0.21657509474113393
+                }
               },
-              "icon": "lucide-file",
-              "title": "Models"
-            }
-          },
-          {
-            "id": "e5c0e8241cf7e716",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-layout-dashboard",
+              "title": "Django Обзор"
             }
           }
         ]
@@ -181,16 +174,19 @@
   },
   "active": "52e951c12d7e0d2a",
   "lastOpenFiles": [
+    "CRUD.md",
+    "Migrations.md",
+    "Models.md",
+    "GET requests.md",
+    "Django Обзор.canvas",
     "Подключение статических файлов.md",
+    "Untitled.md",
+    "Начало работы.md",
     "Наследование шаблонов.md",
     "Templates.md",
     "Конвертеры.md",
-    "Django Обзор.canvas",
-    "Начало работы.md",
-    "GET requests.md",
     "POST requests.md",
     "MTV модель.md",
-    "Models.md",
     "Views.md",
     "Перенаправления.md",
     "Обработчик исключений.md",
