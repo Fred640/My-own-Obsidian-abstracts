@@ -44,3 +44,6 @@ allow_folders - указывает должны ли включаться кат
 #### FloatField - число с плавающей точкой
 #### IntegerField - int
 #### JSONField - поле для хранения данных в формате JSON
+
+# [[Migrations]]
+# [[CRUD]]

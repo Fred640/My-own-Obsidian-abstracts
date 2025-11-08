@@ -13,5 +13,5 @@ def categories(request, cat_id):
 url : 127.0.0.1.8000/categories/52/?name=Vasiliy&type=legend     => console: {"name":['Vasiliy'], "type":['legend']}
 ```
 
-
+[[POST requests]]
 

@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "05ad047e46344595",
+        "id": "365374b2a9eb6132",
         "type": "tabs",
         "children": [
           {
-            "id": "52e951c12d7e0d2a",
+            "id": "50734eeb2db85fe8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Django Обзор.canvas",
-                "viewState": {
-                  "x": -612.5,
-                  "y": -260,
-                  "zoom": -0.21657509474113393
-                }
+                "file": "CRUD.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Django Обзор"
+              "icon": "lucide-file",
+              "title": "CRUD"
             }
           }
         ]
@@ -81,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 280.5
   },
   "right": {
     "id": "6ef16f7fe8794c73",
@@ -172,25 +169,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "52e951c12d7e0d2a",
+  "active": "50734eeb2db85fe8",
   "lastOpenFiles": [
     "CRUD.md",
-    "Migrations.md",
-    "Models.md",
-    "GET requests.md",
     "Django Обзор.canvas",
-    "Подключение статических файлов.md",
+    "GET requests.md",
+    "Маршрутизация.md",
+    "Models.md",
+    "POST requests.md",
     "Untitled.md",
+    "Migrations.md",
+    "Подключение статических файлов.md",
     "Начало работы.md",
     "Наследование шаблонов.md",
     "Templates.md",
     "Конвертеры.md",
-    "POST requests.md",
     "MTV модель.md",
     "Views.md",
     "Перенаправления.md",
     "Обработчик исключений.md",
-    "Маршрутизация.md",
     "2025-10-26.md",
     "Конверторы.md",
     "Welcome.md"

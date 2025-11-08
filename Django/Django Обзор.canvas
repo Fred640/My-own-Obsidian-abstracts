@@ -1,20 +1,22 @@
 {
 	"nodes":[
-		{"id":"c7ca23a6119fcb80","type":"text","text":"[[Models]]","x":-935,"y":-540,"width":250,"height":60},
-		{"id":"880a77369f3ba44d","type":"text","text":"[[Начало работы]]","x":-1475,"y":-540,"width":250,"height":60},
-		{"id":"7db6d651017eb54d","type":"text","text":"[[Templates]]\n","x":-935,"y":-340,"width":250,"height":60},
-		{"id":"6b276a89eed5a59f","type":"text","text":"[[Views]]","x":-935,"y":-100,"width":250,"height":61},
-		{"id":"79b75a5bc36d8f0f","type":"text","text":"**[[MTV модель]]**","x":-1375,"y":-340,"width":250,"height":60},
 		{"id":"00bc125f01f04b9e","type":"text","text":"[[Конвертеры]]","x":-380,"y":100,"width":250,"height":60},
 		{"id":"715a8cede4a91495","type":"text","text":"[[Обработчик исключений]]","x":-960,"y":100,"width":250,"height":60},
-		{"id":"b318213dcc7203ad","type":"text","text":"[[Перенаправления]]","x":0,"y":-9,"width":250,"height":60},
-		{"id":"e86aa010723f2172","type":"text","text":"[[Маршрутизация]]","x":-540,"y":-69,"width":250,"height":60},
-		{"id":"add1a88ebffb8cf0","type":"text","text":"#Фильтры ","x":-685,"y":-200,"width":250,"height":60},
-		{"id":"752ba4e648627890","type":"text","text":"#Теги_шаблонов","x":-960,"y":-200,"width":250,"height":60},
-		{"id":"e0ff13ecc1be0039","type":"text","text":"[[Наследование шаблонов]]","x":-740,"y":-440,"width":250,"height":53},
-		{"id":"c7204daaadf8097b","type":"text","text":"[[Подключение статических файлов]]","x":-380,"y":-280,"width":250,"height":60},
-		{"id":"8fdddc949f0f9c6c","type":"text","text":"[[Migrations]]","x":-1085,"y":-740,"width":250,"height":60},
-		{"id":"d5bdfec6a95c05fd","x":-665,"y":-680,"width":250,"height":60,"type":"text","text":"[[CRUD]]"}
+		{"id":"c7ca23a6119fcb80","type":"text","text":"[[Models]]","x":-900,"y":-970,"width":250,"height":60},
+		{"id":"8fdddc949f0f9c6c","type":"text","text":"[[Migrations]]","x":-580,"y":-1240,"width":250,"height":60},
+		{"id":"d5bdfec6a95c05fd","type":"text","text":"[[CRUD]]","x":-580,"y":-1140,"width":250,"height":60},
+		{"id":"019bf98ff26f6020","type":"text","text":"#lookups","x":-255,"y":-1080,"width":250,"height":60},
+		{"id":"e94ce83ffedf28b0","x":-165,"y":-1180,"width":250,"height":60,"type":"text","text":"#Meta_options "},
+		{"id":"79b75a5bc36d8f0f","type":"text","text":"**[[MTV модель]]**","x":-1420,"y":-340,"width":250,"height":60},
+		{"id":"880a77369f3ba44d","type":"text","text":"[[Начало работы]]","x":-1360,"y":-730,"width":250,"height":60},
+		{"id":"7db6d651017eb54d","type":"text","text":"[[Templates]]\n","x":-860,"y":-670,"width":250,"height":60},
+		{"id":"e0ff13ecc1be0039","type":"text","text":"[[Наследование шаблонов]]","x":-505,"y":-820,"width":250,"height":60},
+		{"id":"c7204daaadf8097b","type":"text","text":"[[Подключение статических файлов]]","x":-380,"y":-610,"width":250,"height":60},
+		{"id":"add1a88ebffb8cf0","type":"text","text":"#Фильтры ","x":-540,"y":-410,"width":250,"height":50},
+		{"id":"752ba4e648627890","type":"text","text":"#Теги_шаблонов","x":-860,"y":-370,"width":250,"height":60},
+		{"id":"6b276a89eed5a59f","type":"text","text":"[[Views]]","x":-900,"y":-200,"width":250,"height":61},
+		{"id":"e86aa010723f2172","type":"text","text":"[[Маршрутизация]]","x":-440,"y":-169,"width":250,"height":60},
+		{"id":"b318213dcc7203ad","type":"text","text":"[[Перенаправления]]","x":80,"y":-109,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"ac1fba77ec2e3fcc","fromNode":"79b75a5bc36d8f0f","fromSide":"right","toNode":"c7ca23a6119fcb80","toSide":"left"},
@@ -30,7 +32,9 @@
 		{"id":"3fb21e2eced24ff5","fromNode":"7db6d651017eb54d","fromSide":"bottom","toNode":"752ba4e648627890","toSide":"top"},
 		{"id":"4cc37146a1c26db9","fromNode":"7db6d651017eb54d","fromSide":"top","toNode":"e0ff13ecc1be0039","toSide":"left"},
 		{"id":"481961d12a3f2feb","fromNode":"7db6d651017eb54d","fromSide":"right","toNode":"c7204daaadf8097b","toSide":"left"},
-		{"id":"e5c80bacf9b99e7e","fromNode":"c7ca23a6119fcb80","fromSide":"top","toNode":"8fdddc949f0f9c6c","toSide":"bottom"},
-		{"id":"14db9767b4a38374","fromNode":"c7ca23a6119fcb80","fromSide":"top","toNode":"d5bdfec6a95c05fd","toSide":"left"}
+		{"id":"e5c80bacf9b99e7e","fromNode":"c7ca23a6119fcb80","fromSide":"top","toNode":"8fdddc949f0f9c6c","toSide":"left"},
+		{"id":"14db9767b4a38374","fromNode":"c7ca23a6119fcb80","fromSide":"top","toNode":"d5bdfec6a95c05fd","toSide":"left"},
+		{"id":"20ddf54f7d3f5e7b","fromNode":"d5bdfec6a95c05fd","fromSide":"right","toNode":"019bf98ff26f6020","toSide":"left"},
+		{"id":"1716705c98bb9c42","fromNode":"d5bdfec6a95c05fd","fromSide":"right","toNode":"e94ce83ffedf28b0","toSide":"left"}
 	]
 }
