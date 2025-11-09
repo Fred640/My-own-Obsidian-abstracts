@@ -1,5 +1,7 @@
 {
   "spellcheck": false,
   "readableLineLength": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "autoConvertHtml": true,
+  "vimMode": false
 }

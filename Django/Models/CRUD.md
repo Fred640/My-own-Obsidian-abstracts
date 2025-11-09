@@ -82,6 +82,35 @@ class Meta:
 `get_latest_by` - имя поля которое будет использоваться для методов latest() earliest()
 `ordering` - дефолтная сортировка выборки записей по указанному полю
 `indexes` - список полей которые будут индексированные
+
+###### Пример получения и отображения на сайте данных из бд
+метод get_object_or_404() - достает объект модели или если его нет возвращает исключение 404
+```
+#views.py
+def post_show(request, post_id):
+	post = get_object_or_404(Men, pk=post_id)
+	data = {
+		"title": post.title,
+		"menu": menu,
+		'post':post,
+		"cat_selected": 1
+	}
+	return render(request, 'man/post.html', data)
+	
+#post.html
+{% extends "base.html" %}
+{% block content %}
+
+<h2>{{post.title}}</h2>
+{% if post.photo %}
+<img class="img_article_left" src="{{post.photo.url}}">
+{% else %}
+<p>Нет фото</p>
+{% endif %}
+{{post.content|linebreaks}}
+
+{% endblock content %}
+```
 #### Update
 ###### update - метод для обновления записей таблицы
 `<ModelName>.oblects.update(FieldName=...)`
