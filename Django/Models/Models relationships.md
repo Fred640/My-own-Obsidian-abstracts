@@ -1,7 +1,7 @@
-###### Типы связей:
-ForeignKey - Many to One 
-ManyToManyField - Many to Many
-OneToOneField - One to One
+w###### Типы связей:
+*ForeignKey* - Many to One 
+*ManyToManyField* - Many to Many
+*OneToOneField* - One to One
 
 ###### on_delete
 параметр который указываеться при создании связи между таблицами, значение которого влияет на действия СУБД при удалении записи из первичной таблицы
@@ -11,8 +11,21 @@ OneToOneField - One to One
 `models.SET_DEFAULT` - при удалении записи из первичной таблицы устанавливеться `ForeignKey=<DefaultValue>` для связанных с ней записей
 `models.DO_NOTHING` - ничего не менять во вторичной таблице при удалении записи в первичной
 ###### ForeigKey
+Many to one - связь при которой записи из перчиной модели соответсвует несколько записей из вторичной модели (первичная модель - One, вторичная модель - Many)
 Чтобы создать Mane to One связь между таблицами нужно в вторичной таблице создать поле `ForeignKey()`
 ```
 class <seconModelName>(models.Model):
 	KeyFieldName = models.ForeignKey("<FirstTableName>", on_delete=..., default=<defaultValue>)
 ```
+
+![[screenshot_11112025_210430.jpg]]
+Обращение к KeyField обьекта вторичной модели
+`<ModelObject>.KeyField_id`
+
+при связи Many to One можно обращаться к полям первичной таблицы через  обьект вторичной таблицы
+`<ModelObject>.KeyFieldName.<FieldName>`
+
+Обращение ко всем записям вторичной моедли связанных с записью перчичнйо модели
+`<FirstModelObject>.<secondModel>_set`
+!!! имя вторичной таблицы должно быть с маленькой буквы так как это метод `<secondModel>_set`
+

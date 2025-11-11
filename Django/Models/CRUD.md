@@ -111,6 +111,10 @@ def post_show(request, post_id):
 
 {% endblock content %}
 ```
+
+Можно получить значение конкретного поля записи
+`Model.objects.get(pk=1).title`
+`Model.objects.get(pk=1).<FielName>`
 #### Update
 ###### update - метод для обновления записей таблицы
 `<ModelName>.oblects.update(FieldName=...)`
