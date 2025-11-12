@@ -25,7 +25,30 @@ class <seconModelName>(models.Model):
 при связи Many to One можно обращаться к полям первичной таблицы через  обьект вторичной таблицы
 `<ModelObject>.KeyFieldName.<FieldName>`
 
-Обращение ко всем записям вторичной моедли связанных с записью перчичнйо модели
-`<FirstModelObject>.<secondModel>_set`
+Можно получить доступ ко всем записям вторичной модели связанных  с записью первичной модели
+`<FirstModelObject>.<secondModel>_set` - это менеджер запсей
 !!! имя вторичной таблицы должно быть с маленькой буквы так как это метод `<secondModel>_set`
+`<FirstModelObject>.<secondModel>_set.all()` - получить все записи вторичной модели связанне с записибю перчиной модели
+к полям записи первичной модели связанной с записями из вторичной модели можно обращаться вот так
+`<SecondModel>.objects.<KeyField>__<FirstFieldName>`
 
+
+
+###### ManyToMany
+ManyToMany - связь при кторой нескольким записям из первичной таблицы соответствует несколько записей из вторичной таблицы
+Чтобы создать ManyToMany связь между моделями, нужно в вторичной модели создать поле MenyToManyField()
+`ConnectingFieldName = models.ManyToManyField(to="<FirstModelName>")` - не имеет параметра on_delete
+При создании такого поля в непосредственно в модель оно добавлено не будет, но будет создана отдельная таблица, в которой будут записываться все связи
+
+![[screenshot_12112025_194455.jpg]]
+
+связываение записи из вторичной таблицы с записями из первичной таблицы
+`SecondModelNote.ConnectingFieldName.set([FirstModelNote1, FirstModelNote2, FirstModelNote3])`
+Удаление связи
+`SecondModelNote.ConnectingFieldName.remove([FirstModelNote1, FirstModelNote2, FirstModelNote3])`
+Добавление связи
+`SecondModelNote.ConnectingFieldName.add([FirstModelNote1, FirstModelNote2, FirstModelNote3])`
+можно и наоборот `FirstModelNote.ConnectingFieldName.add([SecondModelNote1, SecondModelNote2, SecondModelNote3])`
+
+Чтение связей
+`SecondModelNote.ConnectingFieldName.all()`
