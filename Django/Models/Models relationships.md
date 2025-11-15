@@ -1,4 +1,4 @@
-w###### Типы связей:
+###### Типы связей:
 *ForeignKey* - Many to One 
 *ManyToManyField* - Many to Many
 *OneToOneField* - One to One
@@ -42,7 +42,7 @@ ManyToMany - связь при кторой нескольким записям 
 
 ![[screenshot_12112025_194455.jpg]]
 
-связываение записи из вторичной таблицы с записями из первичной таблицы
+Связывание записи из вторичной таблицы с записями из первичной таблицы
 `SecondModelNote.ConnectingFieldName.set([FirstModelNote1, FirstModelNote2, FirstModelNote3])`
 Удаление связи
 `SecondModelNote.ConnectingFieldName.remove([FirstModelNote1, FirstModelNote2, FirstModelNote3])`

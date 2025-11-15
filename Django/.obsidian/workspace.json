@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models/Models relationships.md",
+                "file": "Templates/Теги шаблонов.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Models relationships"
+              "title": "Теги шаблонов"
+            }
+          },
+          {
+            "id": "3432e06593228095",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
             }
           }
         ]
@@ -171,32 +181,34 @@
   },
   "active": "7a87046bd3f56b70",
   "lastOpenFiles": [
+    "Django Обзор.canvas",
+    "Templates/Теги шаблонов.md",
+    "Templates/Templates.md",
+    "Templates/Подключение статических файлов.md",
+    "Templates/Наследование шаблонов.md",
+    "Models/CRUD.md",
+    "Начало работы.md",
+    "Models/Models Manager.md",
+    "Views/Конвертеры.md",
+    "Views/Маршрутизация.md",
+    "Views/Обработчик исключений.md",
+    "Views/Перенаправления.md",
+    "Models/Models relationships.md",
+    "Models/Models.md",
+    "Models/Migrations.md",
+    "Без названия.canvas",
     "Photos/screenshot_12112025_194455.jpg",
     "Photos/screenshot_11112025_210430.jpg",
-    "Models/Models relationships.md",
     "screenshot_12112025_194300.jpg",
-    "Models/CRUD.md",
     "Views/Views.md",
-    "Начало работы.md",
     "Photos",
     "Без названия.md",
-    "Models/Models Manager.md",
-    "Django Обзор.canvas",
-    "Templates/Templates.md",
     "MTV модель.md",
     "GET requests.md",
     "POST requests.md",
     "Views",
-    "Views/Конвертеры.md",
     "Templates",
     "Models",
-    "Models/Models.md",
-    "Models/Migrations.md",
-    "Views/Маршрутизация.md",
-    "Templates/Подключение статических файлов.md",
-    "Templates/Наследование шаблонов.md",
-    "Views/Перенаправления.md",
-    "Views/Обработчик исключений.md",
     "2025-10-26.md",
     "Конверторы.md",
     "Welcome.md"
