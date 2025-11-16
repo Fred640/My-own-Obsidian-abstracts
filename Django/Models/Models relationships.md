@@ -10,6 +10,8 @@
 `models.SET_NULL` - при удалении записи из первичной таблицы устанавливеться `ForeignKey=NULL` для связанных с ней записей
 `models.SET_DEFAULT` - при удалении записи из первичной таблицы устанавливеться `ForeignKey=<DefaultValue>` для связанных с ней записей
 `models.DO_NOTHING` - ничего не менять во вторичной таблице при удалении записи в первичной
+###### related_name
+related_name - параметр, имя по которому можно обратиться ко всем записям вторичной таблицы связанным с записью первичной модели
 ###### ForeigKey
 Many to one - связь при которой записи из перчиной модели соответсвует несколько записей из вторичной модели (первичная модель - One, вторичная модель - Many)
 Чтобы создать Mane to One связь между таблицами нужно в вторичной таблице создать поле `ForeignKey()`
@@ -44,6 +46,7 @@ ManyToMany - связь при кторой нескольким записям 
 
 Связывание записи из вторичной таблицы с записями из первичной таблицы
 `SecondModelNote.ConnectingFieldName.set([FirstModelNote1, FirstModelNote2, FirstModelNote3])`
+Пример: `People.objects.get(pk=3).tag.set(Tags.objects.filter(id__in=[1, 4, 6]))`
 Удаление связи
 `SecondModelNote.ConnectingFieldName.remove([FirstModelNote1, FirstModelNote2, FirstModelNote3])`
 Добавление связи
@@ -52,3 +55,13 @@ ManyToMany - связь при кторой нескольким записям 
 
 Чтение связей
 `SecondModelNote.ConnectingFieldName.all()`
+
+
+###### OneToOne
+OneToOne - связь при которой одной записи первичной модели соответствует одна запись вторичной модели
+`ConnectingFieldName = models.OneToOneField(to="<FirstModelName>")`
+добавление связи
+```
+SecondModelNote.ConnectingFieldName = FirstMNodelNote
+SecondModelNote.save()
+```

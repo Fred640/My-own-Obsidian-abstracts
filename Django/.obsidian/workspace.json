@@ -13,22 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Теги шаблонов.md",
+                "file": "Models/CRUD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Теги шаблонов"
-            }
-          },
-          {
-            "id": "3432e06593228095",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "title": "CRUD"
             }
           }
         ]
@@ -181,19 +171,19 @@
   },
   "active": "7a87046bd3f56b70",
   "lastOpenFiles": [
-    "Django Обзор.canvas",
+    "Models/Models relationships.md",
+    "Models/CRUD.md",
     "Templates/Теги шаблонов.md",
+    "Django Обзор.canvas",
     "Templates/Templates.md",
     "Templates/Подключение статических файлов.md",
     "Templates/Наследование шаблонов.md",
-    "Models/CRUD.md",
     "Начало работы.md",
     "Models/Models Manager.md",
     "Views/Конвертеры.md",
     "Views/Маршрутизация.md",
     "Views/Обработчик исключений.md",
     "Views/Перенаправления.md",
-    "Models/Models relationships.md",
     "Models/Models.md",
     "Models/Migrations.md",
     "Без названия.canvas",
