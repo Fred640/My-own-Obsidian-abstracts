@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Models/CRUD.md",
+                "file": "Админ  панель.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CRUD"
+              "title": "Админ  панель"
             }
           }
         ]
@@ -171,10 +171,16 @@
   },
   "active": "7a87046bd3f56b70",
   "lastOpenFiles": [
-    "Models/Models relationships.md",
-    "Models/CRUD.md",
     "Templates/Теги шаблонов.md",
+    "Админ  панель.md",
+    "Photos/screenshot_11112025_210430.jpg",
+    "Photos/screenshot_12112025_194455.jpg",
+    "Photos/screenshot_18112025_153913.jpg",
+    "Photos/screenshot_18112025_150954.jpg",
     "Django Обзор.canvas",
+    "Django-debug-toolbar.md",
+    "Models/CRUD.md",
+    "Models/Models relationships.md",
     "Templates/Templates.md",
     "Templates/Подключение статических файлов.md",
     "Templates/Наследование шаблонов.md",
@@ -187,12 +193,9 @@
     "Models/Models.md",
     "Models/Migrations.md",
     "Без названия.canvas",
-    "Photos/screenshot_12112025_194455.jpg",
-    "Photos/screenshot_11112025_210430.jpg",
     "screenshot_12112025_194300.jpg",
     "Views/Views.md",
     "Photos",
-    "Без названия.md",
     "MTV модель.md",
     "GET requests.md",
     "POST requests.md",

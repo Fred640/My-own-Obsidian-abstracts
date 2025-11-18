@@ -25,7 +25,8 @@ def __str__(self):
 ```
 такой метод позволит при помощи команды `<ModelName>.objects.all()` получать названия каждой записи
 
-`v = <ModelName>.objects.all()[0]` - Объявить переменную со значением первой записи в таблице. Затем `v` для вывода записи и `v.FiedName` - для вывода конкретного поля.
+###### values() - выведет только указанные поля модели
+`<ModelName>.objects.values(<FieldName>, <FieldName>)`
 
 ###### filter()
 `<ModelName>.objects.filter(Field1="asd")` - получить записи у которых Field1=asd
@@ -138,6 +139,16 @@ def post_show(request, post_id):
 `Model.objects.get(pk=1).title`
 `Model.objects.get(pk=1).<FielName>`
 
+Агрегирующие функции:
+`count()` - посчитать количество записей
+`Min(<fieldName>) Max(<fieldName>)` - максимальное и минимальное значение поля
+`Avg(<fieldName>)` - среднее значение поля
+
+
+
+`Model.objects.count()`
+`Model.objects.aggregate(Max("age"), Min(age))`
+`Model.objects.aggregate(result = Max("age") - Min(age))`
 
 #### Update
 ###### update - метод для обновления записей таблицы
@@ -146,6 +157,9 @@ def post_show(request, post_id):
 `<ModelName>.oblects.filter(pk__gte=4).update(FieldName=...)`
 `<ModelName>.oblects.get(pk=4).update(FieldName=...)`
 `<ModelName>.oblects.all().update(FieldName=...)`
+
+annotate - метод для добавления новых вычисляемых полей на основе существующих
+`Model.objects.all().annotate(NewField=F(pk)+1)`
 
 #### Delete
 delete - метод для удаления записей действует так же как и update
