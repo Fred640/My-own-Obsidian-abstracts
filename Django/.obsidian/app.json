@@ -3,5 +3,8 @@
   "readableLineLength": false,
   "showLineNumber": true,
   "autoConvertHtml": true,
-  "vimMode": false
+  "vimMode": false,
+  "spellcheckDictionary": [
+    "селекте"
+  ]
 }
