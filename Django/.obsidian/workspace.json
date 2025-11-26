@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90221a810f2b0886",
+            "id": "c054c29b50694dff",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Формы"
-            }
-          },
-          {
-            "id": "c054c29b50694dff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Models/Models.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Models"
             }
           }
         ]
@@ -185,9 +171,10 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "90221a810f2b0886",
+  "active": "c054c29b50694dff",
   "lastOpenFiles": [
     "Notes/Models/Models.md",
+    "Без названия.md",
     "Notes/Формы.md",
     "Data",
     "Notes",
